@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".FallActivity">
+
+    <TextView
+        android:id="@+id/tv_monitor_header"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/_20sdp"
+        android:gravity="center"
+        android:text="Fall Detected"
+        android:textStyle="bold"
+        android:textSize="@dimen/_25sdp"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="110dp"
+        android:layout_marginTop="@dimen/_35sdp"
+        android:gravity="center"
+        android:weightSum="1"
+        android:background="@color/colorPrimary">
+
+        <Button
+            android:id="@+id/btn_fall_need_help"
+            android:layout_width="217dp"
+            android:layout_height="75dp"
+            android:layout_weight="0.25"
+            android:background="@drawable/btn_rounded_ripple_first"
+            android:text="Need Help"
+            android:textColor="@color/white" />
+
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="117dp"
+        android:background="@color/colorPrimary"
+        android:gravity="center"
+        android:weightSum="1">
+
+        <Button
+            android:id="@+id/btn_fall_ok"
+            android:layout_width="217dp"
+            android:layout_height="75dp"
+            android:layout_marginLeft="@dimen/_10sdp"
+            android:layout_weight="0.25"
+            android:background="@drawable/btn_rounded_ripple_second"
+            android:text="I'm Okay"
+            android:textColor="@color/white" />
+
+    </LinearLayout>
+
+</LinearLayout>

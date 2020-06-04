@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:id="@+id/tv_main_header"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="@dimen/_16sdp"
+        android:padding="@dimen/_5sdp"
+        android:text="Select Interface Type :"
+        android:textStyle="bold" />
+
+    <RadioGroup
+        android:id="@+id/rg_main"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/tv_main_header"
+        android:layout_margin="@dimen/_10sdp"
+        android:orientation="vertical">
+
+        <RadioButton
+            android:id="@+id/rb_main_user"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:onClick="onRadioButtonClicked"
+            android:padding="@dimen/_5sdp"
+            android:text="User" />
+
+        <RadioButton
+            android:id="@+id/rb_main_guardian"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/_8sdp"
+            android:onClick="onRadioButtonClicked"
+            android:padding="@dimen/_5sdp"
+            android:text="Guardian" />
+
+    </RadioGroup>
+
+    <Button
+        android:id="@+id/btn_main_next"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/rg_main"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="@dimen/_8sdp"
+        android:background="@drawable/btn_rounded_ripple_first"
+        android:paddingLeft="@dimen/_30sdp"
+        android:paddingTop="@dimen/_5sdp"
+        android:paddingRight="@dimen/_30sdp"
+        android:paddingBottom="@dimen/_5sdp"
+        android:text="Next"
+        android:textColor="@color/white" />
+
+
+</RelativeLayout>

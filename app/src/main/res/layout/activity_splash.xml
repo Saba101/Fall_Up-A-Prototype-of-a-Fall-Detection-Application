@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".SplashActivity"
+    android:background="@color/colorPrimary">
+
+<!--    <TextView-->
+<!--        android:layout_width="match_parent"-->
+<!--        android:layout_height="wrap_content"-->
+<!--        android:layout_centerInParent="true"-->
+<!--        android:gravity="center_horizontal"-->
+<!--        android:padding="@dimen/_20sdp"-->
+<!--        android:text="Add background image in this screen...., you will be directed to main screen in 5 seconds automatically"-->
+<!--        android:textStyle="bold" />-->
+
+    <ImageView
+        android:id="@+id/img"
+        android:layout_width="299dp"
+        android:layout_height="311dp"
+        android:layout_centerInParent="true"
+        android:gravity="center_horizontal"
+        android:padding="@dimen/_20sdp"
+        android:src="@drawable/logo" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/img"
+        android:layout_centerInParent="true"
+        android:text="A Fall Detection Application"
+        android:textStyle="bold"
+        android:textSize="@dimen/_18sdp" />
+
+    </RelativeLayout>

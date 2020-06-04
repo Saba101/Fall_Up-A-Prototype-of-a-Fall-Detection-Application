@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#C1C3C1</color>
+    <color name="colorPrimaryDark">#F41126</color>
+    <color name="colorAccent">#FF4081</color>
+    <color name="btn_splash_bg_color">#e2d2d2</color>
+    <color name="btn_splash_ripple">#f8293c</color>
+    <color name="btn_splash_ripple_signup">#3b54a3</color>
+    <color name="white">#FFFFFFFF</color>
+</resources>

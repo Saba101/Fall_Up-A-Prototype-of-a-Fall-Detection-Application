@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MonitorActivity">
+
+    <TextView
+        android:id="@+id/tv_monitor_header"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/_20sdp"
+        android:gravity="center"
+        android:text="You are being monitored"
+        android:textStyle="bold" />
+
+    <Button
+        android:id="@+id/btn_monitor_stop"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/tv_monitor_header"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="@dimen/_20sdp"
+        android:background="@drawable/btn_rounded_ripple_first"
+        android:paddingLeft="@dimen/_30sdp"
+        android:paddingTop="@dimen/_5sdp"
+        android:paddingRight="@dimen/_30sdp"
+        android:paddingBottom="@dimen/_5sdp"
+        android:text="Stop Monitoring"
+        android:textColor="@color/white" />
+
+</RelativeLayout>
